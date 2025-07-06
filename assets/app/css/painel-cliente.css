@@ -1,0 +1,145 @@
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+header {
+    background-color: rgb(24, 36, 64);
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.6rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #c8e6c9;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: rgb(24, 36, 64);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card h2 {
+    color: rgb(24, 36, 64);
+    margin-top: 0;
+}
+
+#formDadosAdicionais {
+    display: none;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#formDadosAdicionais h2 {
+    color: rgb(24, 36, 64);
+}
+
+#formDadosAdicionais label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+#formDadosAdicionais input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 0.4rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.container li {
+    padding: 0.8rem;
+    border-bottom: 1px solid #ddd;
+    background-color: #fafafa;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+}
+
+.container li:last-child {
+    border-bottom: none;
+}
+
+.btn, button {
+    padding: 0.6rem 1.2rem;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 0.5rem;
+}
+
+.btn:hover, button:hover {
+    background-color: #219150;
+}
+
+button[type="submit"] {
+    background-color: #2980b9;
+}
+
+button[type="submit"]:hover {
+    background-color: #1c5980;
+}

@@ -1,0 +1,83 @@
+body {
+    background-color: #f8f8f8;
+    min-height: 100vh;
+}
+
+.page-cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 80px); 
+    padding: 20px;
+}
+
+.cadastro-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+.cadastro-container h2 {
+    margin-bottom: 24px;
+    color: #2e7d32;
+}
+
+.cadastro-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cadastro-container label {
+    text-align: left;
+    font-weight: bold;
+    color: #333;
+}
+
+.cadastro-container input,
+.cadastro-container select {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.cadastro-container input:focus,
+.cadastro-container select:focus {
+    border-color: #2e7d32;
+}
+
+.cadastro-container button {
+    background-color: #2e7d32;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.cadastro-container button:hover {
+    background-color: #246d46;
+}
+
+.cadastro-container p {
+    margin-top: 16px;
+    font-size: 14px;
+}
+
+.cadastro-container a {
+    color: #2e7d32;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cadastro-container a:hover {
+    text-decoration: underline;
+}

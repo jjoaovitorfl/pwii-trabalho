@@ -1,0 +1,140 @@
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+header {
+    background-color: rgb(24, 36, 64);
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.6rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #c8e6c9;
+}
+
+footer {
+    background-color: rgb(24, 36, 64);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.painel-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.painel-container h2 {
+    text-align: center;
+    color: rgb(24, 36, 64);
+    margin-bottom: 2rem;
+}
+
+.selecionar-feira {
+    background-color: #fafafa;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.selecionar-feira h3 {
+    margin-top: 0;
+    color: rgb(24, 36, 64);
+}
+
+.selecionar-feira select {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.gerenciar-produtos {
+    background-color: #fafafa;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.gerenciar-produtos h3 {
+    margin-top: 0;
+    color: rgb(24, 36, 64);
+}
+
+.produto-item {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.produto-item h4 {
+    margin: 0 0 0.5rem 0;
+    color: rgb(24, 36, 64);
+}
+
+.produto-item p {
+    margin: 0.3rem 0 0.8rem 0;
+}
+
+button,
+.produto-item button {
+    padding: 0.5rem 1rem;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover,
+.produto-item button:hover {
+    background-color: #219150;
+}
+
+#addProdutoBtn {
+    background-color: #2980b9;
+}
+
+#addProdutoBtn:hover {
+    background-color: #1c5980;
+}
