@@ -21,6 +21,3 @@ Sistema de gerenciamento para feiras livres, voltado para pequenos produtores e 
 
 ## Projeto desenvolvido na disciplina de PWII
 Curso Técnico em Informática - IFSul Câmpus Charqueadas
-
-## Status
-Projeto em andamento 
